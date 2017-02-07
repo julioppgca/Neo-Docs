@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>       <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>          <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>          <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->  <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+    <title>Board versions - UDOO Neo Docs</title>
+    <meta name="description" content="UDOO Board Documentation" />
+    <meta name="author" content="UDOO Team">
+    <meta charset="UTF-8">
+    <link rel="icon" href="http://www.udoo.org/wp-content/uploads/2014/12/logo_udoo_32.ico" type="image/x-icon">
+    <!-- Mobile -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font -->
+    <link href='//fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700&subset=latin,cyrillic-ext,cyrillic' rel='stylesheet' type='text/css'>
+    <!-- CSS -->
+    <link href='../themes/daux/css/theme.min.css' rel='stylesheet' type='text/css'><link href='../themes/daux/css/theme-navy.udoo.css' rel='stylesheet' type='text/css'><link href='../themes/daux/css/udoo.css' rel='stylesheet' type='text/css'>
+    
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <meta name="google-site-verification" content="GlKlGkbxuWQ3LNWx0akLYkqoWLrtF5b0ug9UpGadSuc" />
+    <meta name="google-site-verification" content="vL1Qo6JWKZBq6fzVJLJhbyqHya1TBhZd78OJDA-Qe1s" />
+    
+    <!-- jQuery -->
+    <script src="../themes/daux/js/jquery-1.11.3.min.js"></script>
+    <script src="../themes/daux/js/bootstrap.min.js"></script>
+</head>
+<body class="">
+    
+    <a href="https://github.com/UDOOboard/Neo-Docs" target="_blank" id="github-ribbon" class="hidden-print"><img src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
+<div class="container-fluid fluid-height wrapper">
+    <div class="navbar navbar-static-top hidden-print">
+        <div class="container-fluid">
+            <a class="udoologo pull-left" href="../index.html">
+		<img src="http://www.udoo.org/docs-neo/img/logo_docs_neo.png"> <span>Docs</span>
+		<a class="btn btn-lg button_docs pull-right" href="http://www.udoo.org/docs/">UDOO Quad/Dual Docs</a>
+</a>
+
+        </div>
+    </div>
+    <div class="row columns content">
+        <div class="left-column article-tree col-sm-3 hidden-print">
+            <!-- For Mobile -->
+            <div class="responsive-collapse">
+                <button type="button" class="btn btn-sidebar" id="menu-spinner-button">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div id="sub-nav-collapse" class="sub-nav-collapse">
+                <!-- Navigation -->
+                <ul class='nav nav-list'><li class=' has-children'><a href="#" class="aj-nav folder"><i class="arrow">&nbsp;</i>Introduction</a><ul class='nav nav-list'><li class=''><a href="../Introduction/Introduction.html">Introduction</a></li></ul></li><li class=' has-children'><a href="#" class="aj-nav folder"><i class="arrow">&nbsp;</i>Getting Started</a><ul class='nav nav-list'><li class=''><a href="../Getting_Started/Very_First_Start.html">Very First Start</a></li><li class=''><a href="../Getting_Started/Create_a_bootable_MicroSD_card_for_UDOO_Neo.html">Create a bootable MicroSD card for UDOO Neo</a></li><li class=''><a href="../Getting_Started/Use_as_a_headless_IoT_Device.html">Use as a headless IoT Device</a></li><li class=''><a href="../Getting_Started/Use_as_a_Lightweight_Desktop_PC.html">Use as a Lightweight Desktop PC</a></li><li class=''><a href="../Getting_Started/Use_as_an_Arduino.html">Use as an Arduino</a></li></ul></li><li class=' has-children'><a href="#" class="aj-nav folder"><i class="arrow">&nbsp;</i>Basic Setup</a><ul class='nav nav-list'><li class=''><a href="../Basic_Setup/Usb_Direct_Connection.html">Usb Direct Connection</a></li><li class=''><a href="../Basic_Setup/Web_Control_Panel.html">Web Control Panel</a></li><li class=''><a href="../Basic_Setup/Remote_Terminal_(SSH).html">Remote Terminal (SSH)</a></li><li class=''><a href="../Basic_Setup/Remote_Desktop_(VNC).html">Remote Desktop (VNC)</a></li><li class=''><a href="../Basic_Setup/Serial_Debug_Console.html">Serial Debug Console</a></li></ul></li><li class=' has-children'><a href="#" class="aj-nav folder"><i class="arrow">&nbsp;</i>Software & Operating Systems</a><ul class='nav nav-list'><li class=''><a href="../Software_&_Operating_Systems/UDOObuntu.html">UDOObuntu</a></li><li class=''><a href="../Software_&_Operating_Systems/Android.html">Android</a></li><li class=''><a href="../Software_&_Operating_Systems/Yocto.html">Yocto</a></li></ul></li><li class=' has-children'><a href="#" class="aj-nav folder"><i class="arrow">&nbsp;</i>Hardware & Accessories</a><ul class='nav nav-list'><li class=''><a href="../Hardware_&_Accessories/Motion_sensors.html">Motion sensors</a></li><li class=''><a href="../Hardware_&_Accessories/Bricks_snap_in_sensors.html">Bricks snap in sensors</a></li><li class=''><a href="../Hardware_&_Accessories/GPIO.html">GPIO</a></li><li class=''><a href="../Hardware_&_Accessories/UART_serial_ports.html">UART serial ports</a></li><li class=''><a href="../Hardware_&_Accessories/I2C_bus.html">I2C bus</a></li><li class=''><a href="../Hardware_&_Accessories/SPI_bus.html">SPI bus</a></li><li class=''><a href="../Hardware_&_Accessories/CAN_bus.html">CAN bus</a></li><li class=''><a href="../Hardware_&_Accessories/LVDS_panels.html">LVDS panels</a></li><li class=''><a href="../Hardware_&_Accessories/PWM.html">PWM</a></li><li class=''><a href="../Hardware_&_Accessories/ADC.html">ADC</a></li><li class=''><a href="../Hardware_&_Accessories/USB-to-TTL_Serial_Debug_Module.html">USB-to-TTL Serial Debug Module</a></li><li class=''><a href="../Hardware_&_Accessories/I2S.html">I2S</a></li></ul></li><li class=' has-children'><a href="#" class="aj-nav folder"><i class="arrow">&nbsp;</i>Wireless Communication</a><ul class='nav nav-list'><li class=''><a href="../Wireless_Communication/WiFi.html">WiFi</a></li><li class=''><a href="../Wireless_Communication/WiFi_SoftAP.html">WiFi SoftAP</a></li><li class=''><a href="../Wireless_Communication/Bluetooth.html">Bluetooth</a></li><li class=''><a href="../Wireless_Communication/Bluetooth NAP.html">Bluetooth NAP</a></li></ul></li><li class=' has-children'><a href="#" class="aj-nav folder"><i class="arrow">&nbsp;</i>Cookbook Linux</a><ul class='nav nav-list'><li class=''><a href="../Cookbook_Linux/Understanding_Linux_Software_Management_And_Installing.html">Understanding Linux Software Management And Installing</a></li><li class=''><a href="../Cookbook_Linux/Linux_Command_Line_Interface.html">Linux Command Line Interface</a></li><li class=''><a href="../Cookbook_Linux/Set_video_output.html">Set video output</a></li><li class=''><a href="../Cookbook_Linux/Device_Tree_Editor.html">Device Tree Editor</a></li><li class=''><a href="../Cookbook_Linux/Change_Web_Control_Panel_port.html">Change Web Control Panel port</a></li><li class=''><a href="../Cookbook_Linux/Turn_off_M4_Arduino_core.html">Turn off M4 Arduino core</a></li></ul></li><li class=' has-children'><a href="#" class="aj-nav folder"><i class="arrow">&nbsp;</i>Arduino M4 Processor</a><ul class='nav nav-list'><li class=''><a href="../Arduino_M4_Processor/Overview.html">Overview</a></li><li class=''><a href="../Arduino_M4_Processor/Pinout.html">Pinout</a></li><li class=''><a href="../Arduino_M4_Processor/Communication.html">Communication</a></li><li class=''><a href="../Arduino_M4_Processor/Programming_Arduino_M4_from_Internal_Processor(Cortex-A9).html">Programming Arduino M4 from Internal Processor(Cortex-A9)</a></li><li class=''><a href="../Arduino_M4_Processor/Programming_Arduino_M4_from_External_PC.html">Programming Arduino M4 from External PC</a></li><li class=''><a href="../Arduino_M4_Processor/Debugging.html">Debugging</a></li><li class=''><a href="../Arduino_M4_Processor/Arduino_differences.html">Arduino differences</a></li><li class=''><a href="../Arduino_M4_Processor/Porting_Libraries.html">Porting Libraries</a></li><li class=''><a href="../Arduino_M4_Processor/Controlling_9-axis_motion_sensors.html">Controlling 9-axis motion sensors</a></li><li class=''><a href="../Arduino_M4_Processor/Use_more_digital_pins_on_M4.html">Use more digital pins on M4</a></li></ul></li><li class=' has-children'><a href="#" class="aj-nav folder"><i class="arrow">&nbsp;</i>Cookbook Arduino M4</a><ul class='nav nav-list'><li class=''><a href="../Cookbook_Arduino_M4/Hall_Sensor.html">Hall Sensor</a></li><li class=''><a href="../Cookbook_Arduino_M4/RGB_led.html">RGB led</a></li><li class=''><a href="../Cookbook_Arduino_M4/Two_color_common_cathode_led.html">Two color common cathode led</a></li><li class=''><a href="../Cookbook_Arduino_M4/Knock_sensor.html">Knock sensor</a></li><li class=''><a href="../Cookbook_Arduino_M4/Infrared_Transmit.html">Infrared Transmit</a></li></ul></li><li class=' has-children'><a href="../Serial_Libraries/index.html" class="folder"><i class="arrow">&nbsp;</i>Serial Libraries</a><ul class='nav nav-list'><li class=''><a href="../Serial_Libraries/Java_Serial_Libraries.html">Java Serial Libraries</a></li><li class=''><a href="../Serial_Libraries/C_Serial_Libraries.html">C Serial Libraries</a></li><li class=''><a href="../Serial_Libraries/PHP_Serial_Libraries.html">PHP Serial Libraries</a></li><li class=''><a href="../Serial_Libraries/Python_Serial_Libraries.html">Python Serial Libraries</a></li></ul></li><li class=' has-children'><a href="#" class="aj-nav folder"><i class="arrow">&nbsp;</i>Cookbook Android</a><ul class='nav nav-list'><li class=''><a href="../Cookbook_Android/UDOO_Android_Boot_Walkthrough.html">UDOO Android Boot Walkthrough</a></li><li class=''><a href="../Cookbook_Android/UDOO_Android_Settings.html">UDOO Android Settings</a></li><li class=''><a href="../Cookbook_Android/How_To_Install_Gapps_On_UDOO_Running_Android.html">How To Install Gapps On UDOO Running Android</a></li></ul></li><li class=' has-children'><a href="#" class="aj-nav folder"><i class="arrow">&nbsp;</i>Debugging & Troubleshooting</a><ul class='nav nav-list'><li class=''><a href="../Debugging_&_Troubleshooting/Arduino_programming_from_internal_IDE.html">Arduino programming from internal IDE</a></li><li class=''><a href="../Debugging_&_Troubleshooting/Arduino_String_issue.html">Arduino String issue</a></li><li class=''><a href="../Debugging_&_Troubleshooting/USB_stops_working_after_programming_M4.html">USB stops working after programming M4</a></li></ul></li><li class=' has-children'><a href="#" class="aj-nav folder"><i class="arrow">&nbsp;</i>Advanced Topics</a><ul class='nav nav-list'><li class=''><a href="../Advanced_Topics/Setup_development_environment.html">Setup development environment</a></li><li class=''><a href="../Advanced_Topics/Compile_UDOObuntu_(complete_bootable_image).html">Compile UDOObuntu (complete bootable image)</a></li><li class=''><a href="../Advanced_Topics/Compile_U-Boot_Bootloader.html">Compile U-Boot Bootloader</a></li><li class=''><a href="../Advanced_Topics/Compile_Linux_Kernel.html">Compile Linux Kernel</a></li><li class=''><a href="../Advanced_Topics/Compile_Android_From_Source.html">Compile Android From Source</a></li><li class=''><a href="../Advanced_Topics/Recompile_MQX_Libraries.html">Recompile MQX Libraries</a></li><li class=''><a href="../Advanced_Topics/Boot_process.html">Boot process</a></li></ul></li><li class='open has-children'><a href="#" class="aj-nav folder"><i class="arrow">&nbsp;</i>Hardware Reference</a><ul class='nav nav-list'><li class=''><a href="../Hardware_Reference/Overview.html">Overview</a></li><li class='active'><a href="../Hardware_Reference/Board versions.html">Board versions</a></li><li class=''><a href="../Hardware_Reference/Processor.html">Processor</a></li><li class=''><a href="../Hardware_Reference/RAM.html">RAM</a></li><li class=''><a href="../Hardware_Reference/Power_Management.html">Power Management</a></li><li class=''><a href="../Hardware_Reference/PC_USB_interface.html">PC USB interface</a></li><li class=''><a href="../Hardware_Reference/Indicator_LED.html">Indicator LED</a></li><li class=''><a href="../Hardware_Reference/JTAG_header.html">JTAG header</a></li><li class=''><a href="../Hardware_Reference/VADC_Analog_Camera.html">VADC Analog Camera</a></li><li class=''><a href="../Hardware_Reference/Ethernet.html">Ethernet</a></li></ul></li><li class=' has-children'><a href="#" class="aj-nav folder"><i class="arrow">&nbsp;</i>UDOO NEO made by the Community</a><ul class='nav nav-list'><li class=''><a href="../UDOO_NEO_made_by_the_Community/Python.html">Python</a></li><li class=''><a href="../UDOO_NEO_made_by_the_Community/Java.html">Java</a></li><li class=''><a href="../UDOO_NEO_made_by_the_Community/Builds_based_on_other_kernels.html">Builds based on other kernels</a></li><li class=''><a href="../UDOO_NEO_made_by_the_Community/Drivers_Modules_And_Tools.html">Drivers Modules And Tools</a></li></ul></li></ul>
+
+                <div class="sidebar-links">
+                    
+                        <!-- Links -->
+                        <a href="http://www.udoo.org" target="_blank">Home</a><br><a href="http://www.udoo.org/downloads" target="_blank">Downloads</a><br><a href="http://www.udoo.org/tutorial" target="_blank">Tutorials</a><br><a href="http://www.udoo.org/forum" target="_blank">Forum</a><br>
+                        <!-- Twitter -->
+                        
+                        <hr/>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="right-column  content-area col-sm-9">
+
+            <div class="content-page">
+                
+                <div class="doc_content">
+                    <article>
+            <div class="page-header">
+            <h1>Board versions</h1>
+        </div>
+    
+    <img src="../img/udoo_neo_versions.jpg" alt="UDOO versions" class="img-responsive" >
+<h2 id="page_Basic">Basic</h2>
+<ul>
+<li>512 MB DDR3 RAM</li>
+<li>Wi-Fi/Bluetooth module is not mounted.</li>
+<li>Network connection is provided by the 10/100 Mbps fast Ethernet RJ45 port.</li>
+<li>9-axis motion sensors (accelerometer, magnetometer and gyroscope) are not mounted.</li>
+</ul>
+<h2 id="page_Extended">Extended</h2>
+<ul>
+<li>1 GB DDR3 RAM.</li>
+<li>Wi-Fi/Bluetooth module is mounted</li>
+<li>No 10/100 Mbps fast Ethernet RJ45 port.</li>
+<li>9-axis motion sensors are embedded on board.</li>
+</ul>
+<h2 id="page_Full">Full</h2>
+<ul>
+<li>1 GB DDR3 RAM.</li>
+<li>Wi-Fi/Bluetooth module is mounted</li>
+<li>10/100 Mbps fast Ethernet RJ45 port.</li>
+<li>9-axis motion sensors are embedded on board.</li>
+</ul>
+<p><br><br></p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Basic</th>
+<th>Extended</th>
+<th>Full</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>RAM</td>
+<td>512 MB DDR3</td>
+<td>1 GB DDR3</td>
+<td>1 GB DDR3</td>
+</tr>
+<tr>
+<td>Wifi / Bluetooth</td>
+<td>NO</td>
+<td>YES</td>
+<td>YES</td>
+</tr>
+<tr>
+<td>Ethernet 10/100</td>
+<td>YES</td>
+<td>NO</td>
+<td>YES</td>
+</tr>
+<tr>
+<td>9-axis Motion Sensor</td>
+<td>No</td>
+<td>YES</td>
+<td>YES</td>
+</tr>
+</tbody>
+</table>
+
+        <nav>
+        <ul class="pager">
+            <li><a href="../Hardware_Reference/Overview.html">Previous</a></li>            <li><a href="../Hardware_Reference/Processor.html">Next</a></li>        </ul>
+    </nav>
+        
+    <span style="float: left; font-size: 10px; color: gray;">
+    This page was last updated on Tuesday, February 7, 2017 at 5:25 PM.
+    </span>
+    
+</article>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+    <!-- hightlight.js -->
+    <script src="../themes/daux/js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+    <!-- JS -->
+    
+    <script src="../themes/daux/js/daux.js"></script>
+
+        <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-40057783-1', 'auto', {
+            'allowLinker': true});
+      ga('send', 'pageview');
+    </script>
+</body>
+</html>
